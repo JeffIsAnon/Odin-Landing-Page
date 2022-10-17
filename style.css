@@ -6,9 +6,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .hero-main  {
     background-color: #1f2937;
-    padding: 0 12rem;
+    padding: 0 17rem;
 }
 
 .header {
@@ -26,9 +31,10 @@
     padding: 5rem 0;
     display: flex;
     gap: 80px;
+    height: 200px;
 }
 
-h1 {
+.hero-text h1 {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
@@ -55,7 +61,41 @@ button {
     color: #f9faf8;
     padding: 5px 20px;
     border: none;
-    border-radius: 5px; 
+    border-radius: 5px;
+}
+
+.info {
+    background-color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.info-content {
+    display: flex;
+    gap: 50px;
+} 
+
+.box {
+    width:  120px;
+    height: 120px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.box-text {
+    width: 120px;
+    font-size: 18px;
+    color: #1f2937;
 }
 
 ul {
